@@ -8,11 +8,12 @@ import LibraryHeader from './LibraryHeader';
 class MainLibrary extends Component {
 
   render() {
-    const { books, toggleRead, deleteEntry, fields, toggleAddForm } = this.props;
+    const { books, toggleRead, deleteEntry, fields, toggleAddForm, clearLib } = this.props;
     return (
       <div className=" container main">
         <div>
           <button onClick={toggleAddForm} className='btn'>Add New Book</button>
+          <button onClick={clearLib} className='btn'>Clear Library</button>
         </div>
         <table>
           <LibraryHeader fields={fields}/>

@@ -145,3 +145,6 @@ table {
     margin-bottom: 0.6em;
 }
 
+.btn + .btn {
+  margin-left: 1.3em;
+}

@@ -78,6 +78,14 @@ class LibraryApp extends React.Component {
     })
   }
 
+  clearLib = () => {
+    let books = [];
+    this.save(books);
+    this.setState({
+      books: books
+    })
+  }
+
   render() {
     const fields = ['id', 'title', 'author', 'year', 'genre', 'pages', 'read', 'delete'];
     const {books, addForm} = this.state;
@@ -98,6 +106,7 @@ class LibraryApp extends React.Component {
           deleteEntry={this.deleteEntry}
           fields={fields}
           toggleAddForm={this.toggleAddForm}
+          clearLib={this.clearLib}
         />
       </div>
     );   
