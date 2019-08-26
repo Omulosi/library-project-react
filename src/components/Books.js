@@ -7,12 +7,19 @@ import BookEntry from './BookEntry';
 class Books extends Component {
 
   render() {
-    const books = this.props.books;
+    const { books, toggleRead, deleteEntry } = this.props;
     return (
       <tbody>
-        books.forEach((book) => (
-          <BookEntry book={book} />
-        ));
+        {
+          books.map((book) => (
+            <BookEntry 
+              book={book} 
+              key={book.id}
+              toggleRead={toggleRead}
+              deleteEntry={deleteEntry}
+            />
+          ))
+        }
       </tbody>
     );
   }
