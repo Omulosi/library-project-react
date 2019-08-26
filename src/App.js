@@ -1,11 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+
+import Header from './components/Header';
+import MainLibrary from './components/MainLibrary';
+
 import './App.css';
 
-class LibraryApp extends React {
-
+class LibraryApp extends React.Component {
   render() {
-
+    return (
+      <div>
+        <Header />
+        <MainLibrary />
+      </div>
+    );   
   }
 }
 
