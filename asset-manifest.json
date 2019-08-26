@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/library-project-react/static/css/main.8944dcd7.chunk.css",
+    "main.js": "/library-project-react/static/js/main.73eda4a6.chunk.js",
+    "main.js.map": "/library-project-react/static/js/main.73eda4a6.chunk.js.map",
+    "runtime~main.js": "/library-project-react/static/js/runtime~main.5c2b754a.js",
+    "runtime~main.js.map": "/library-project-react/static/js/runtime~main.5c2b754a.js.map",
+    "static/js/2.e5aeddc0.chunk.js": "/library-project-react/static/js/2.e5aeddc0.chunk.js",
+    "static/js/2.e5aeddc0.chunk.js.map": "/library-project-react/static/js/2.e5aeddc0.chunk.js.map",
+    "index.html": "/library-project-react/index.html",
+    "precache-manifest.86c1c983ed9034c2c8cd42caea1f4e63.js": "/library-project-react/precache-manifest.86c1c983ed9034c2c8cd42caea1f4e63.js",
+    "service-worker.js": "/library-project-react/service-worker.js",
+    "static/css/main.8944dcd7.chunk.css.map": "/library-project-react/static/css/main.8944dcd7.chunk.css.map"
+  }
+}
